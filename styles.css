@@ -116,3 +116,30 @@ p {
     font-size: 20px;
     text-align: right;
 }
+
+.section {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background-color: #3882F6;
+    width: 750px;
+    padding: 40px 120px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal .logo {
+    color: #F9FAF8;
+}
+
+.modal .sign-up {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    font-size: 18px;
+}
